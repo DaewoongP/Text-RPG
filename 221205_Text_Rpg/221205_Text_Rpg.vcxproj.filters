@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainMenu">
+      <UniqueIdentifier>{b7b8e44d-ea4f-4ad5-b693-28ca32de4467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object">
+      <UniqueIdentifier>{9acdde4a-f0b6-4f48-af8e-f2f89f89546c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Store">
+      <UniqueIdentifier>{8653da3a-d209-4352-9341-7e932c0e5eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. SaveManager">
+      <UniqueIdentifier>{8e27f922-ebd6-4c2a-902e-3f21abb867b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Inventory">
+      <UniqueIdentifier>{09212a7b-2ecd-4bad-9e89-94963f2dda46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Item">
+      <UniqueIdentifier>{5ee65d90-d8f9-4031-b12b-22310e592b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Item\00. Equip">
+      <UniqueIdentifier>{478be108-a090-4d8a-be33-561e98279134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\00.Player">
+      <UniqueIdentifier>{07a6838e-b262-477f-af12-9ea57109d2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\01.Monster">
+      <UniqueIdentifier>{5125a307-e4f4-4b41-94a1-82e16a1cf54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Item\01.Potion">
+      <UniqueIdentifier>{b7abc443-6804-409b-a6ce-6cda22740239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Map">
+      <UniqueIdentifier>{0ce1f617-d796-4b86-890c-3c2890bce801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Map\00. Town">
+      <UniqueIdentifier>{04690a94-f952-4858-806c-6c96420bff4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Map\01. Field">
+      <UniqueIdentifier>{f0e80890-05ce-449d-a4dd-8f85cd53cab9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>00. MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>02.Map\01. Field</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveManager.h">
+      <Filter>05. SaveManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>06. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="PotionStore.h">
+      <Filter>04. Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>02.Map\00. Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>07. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipStore.h">
+      <Filter>04. Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>07. Item\00. Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>07. Item\00. Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamble.h">
+      <Filter>04. Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Object\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Object\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>07. Item\01.Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMap.h">
+      <Filter>02.Map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="221205_Text_Rpg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>00. MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>02.Map\01. Field</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.cpp">
+      <Filter>05. SaveManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>06. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="PotionStore.cpp">
+      <Filter>04. Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>02.Map\00. Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>07. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipStore.cpp">
+      <Filter>04. Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>07. Item\00. Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>07. Item\00. Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamble.cpp">
+      <Filter>04. Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Object\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Object\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>07. Item\01.Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMap.cpp">
+      <Filter>02.Map</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
